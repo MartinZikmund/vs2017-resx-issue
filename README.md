@@ -1,3 +1,4 @@
+
 # VS 2017 RESX bug
 This repository illustrates a Visual Studio 2017 localization issue.
 
@@ -24,3 +25,12 @@ Text should read *Localized* in step 5.
 ## Additional info
 
 I have observed that this problem occurs only for Debug build. Release build loads the localized resources even in VS 2017.
+
+## Version info
+
+Microsoft Visual Studio Enterprise 2017
+Version 15.0.26228.9
+Microsoft .NET Framework
+Version 4.6.01586
+Visual Studio Tools for Universal Windows Apps   15.0.26228.00
+Xamarin   4.3.0.784
