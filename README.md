@@ -3,7 +3,12 @@ This repository illustrates a Visual Studio 2017 localization issue.
 
 ## Brief description
 
-When a UWP app references a Portable Class Library with localized RESX file and the app is then launched for debugging, the localized resources are never displayed and the app will show neutral RESX strings only. When debugged in Visual Studio 2015, it works as expected.
+The sample app contains a UWP app and a PCL library with localized RESX file (*LocalizedStrings.rex, LocalizedStrings.cs.resx*). Culture is set in the app's constructor as follows:
+
+    CultureInfo.CurrentUICulture = new CultureInfo("cs");
+    CultureInfo.CurrentCulture = new CultureInfo("cs");
+
+When launched for debugging, the localized resources are never displayed and the app will show neutral RESX strings only. When debugged in Visual Studio 2015, it works as expected.
 
 ## Steps to reproduce
 1. Clone the repo
