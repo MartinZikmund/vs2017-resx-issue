@@ -36,3 +36,13 @@ I have observed that this problem occurs only for Debug build. Release build loa
 - Microsoft .NET Framework Version 4.6.01586
 - Visual Studio Tools for Universal Windows Apps   15.0.26228.00
 - Xamarin   4.3.0.784
+
+## Screenshots
+
+### Setp 5 (VS 2017)
+
+![VS 2017](https://raw.githubusercontent.com/MartinZikmund/vs2017-resx-issue/master/vs2017.PNG)
+
+### Step 10 (VS 2015)
+
+![VS 2017](https://raw.githubusercontent.com/MartinZikmund/vs2017-resx-issue/master/Vs2015.PNG)
